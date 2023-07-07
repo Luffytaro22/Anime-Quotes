@@ -66,6 +66,19 @@ button:hover {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  animation-name: quote;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+}
+
+@keyframes quote {
+  from {
+    transform: translateY(50%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
 
 #root {
