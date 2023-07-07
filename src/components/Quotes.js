@@ -40,8 +40,15 @@ export default function Quotes({ anime }) {
 
   return (
     <div id="Quote-container">
-      <h2>{quoteData.quote}</h2>
-      <p>{quoteData.character}</p>
+      <h2>
+        &quot;
+        {quoteData.quote}
+        &quot;
+      </h2>
+      <p>
+        -
+        {quoteData.character}
+      </p>
       <button type="button" onClick={anotherQuote}>Another One!</button>
     </div>
   );
