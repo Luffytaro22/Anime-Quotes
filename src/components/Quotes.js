@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
-export default function Quotes() {
+export default function Quotes({ anime }) {
   const [quoteData, setQuote] = useState([]);
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -9,7 +10,7 @@ export default function Quotes() {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch('https://animechan.xyz/api/random/anime?title=naruto');
+        const response = await fetch(`https://animechan.xyz/api/random/anime?title=${anime}`);
         const json = await response.json();
         setQuote(json);
       } catch (error) {
@@ -18,7 +19,7 @@ export default function Quotes() {
       setIsLoading(false);
     };
     fetchData();
-  }, []);
+  }, [anime]);
 
   if (hasError) {
     return <div>Something went wrong!</div>;
@@ -35,3 +36,7 @@ export default function Quotes() {
     </div>
   );
 }
+
+Quotes.propTypes = {
+  anime: PropTypes.string.isRequired,
+};
