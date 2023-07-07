@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Anime-Quotes/static/css/main.108f536f.css",
+    "main.js": "/Anime-Quotes/static/js/main.a2cd9c9e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Anime-Quotes/static/js/787.28cb0dcd.chunk.js",
+    "static/media/background.jpg": "/Anime-Quotes/static/media/background.0c617c7952ed7f4b6be3.jpg",
+    "index.html": "/Anime-Quotes/index.html",
+    "main.108f536f.css.map": "/Anime-Quotes/static/css/main.108f536f.css.map",
+    "main.a2cd9c9e.js.map": "/Anime-Quotes/static/js/main.a2cd9c9e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Anime-Quotes/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.108f536f.css",
+    "static/js/main.a2cd9c9e.js"
+  ]
+}
