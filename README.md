@@ -58,7 +58,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a id="live-demo"></a>
-* Cooming soon.
+* [Live demo](https://luffytaro22.github.io/Anime-Quotes/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +136,7 @@ npm start
 ```
 
 ### Deployment
-Cooming soon.
+You can deploy the project with [this link](https://luffytaro22.github.io/Anime-Quotes/index.html)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
