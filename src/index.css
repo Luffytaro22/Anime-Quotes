@@ -17,6 +17,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 code {
@@ -47,6 +51,7 @@ code {
 #input-quote {
   border: none;
   outline: none;
+  background: none;
 }
 
 i:hover,
