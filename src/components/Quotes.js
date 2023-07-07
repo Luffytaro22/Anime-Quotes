@@ -35,7 +35,13 @@ export default function Quotes({ anime }) {
   }
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="lds-facebook">
+        <div />
+        <div />
+        <div />
+      </div>
+    );
   }
 
   return (

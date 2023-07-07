@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians <a id="about-project"></a>
+# 📖 Anime Quotes <a id="about-project"></a>
 
-**Math Magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+**Anime Quotes** is an app created with React.js that fetches data from Animechan API and display quotes from an anime selected by the user.
 
 ## 🛠 Built With <a id="built-with"></a>
 
@@ -50,8 +50,7 @@
 <!-- Features -->
 
 ### Key Features
-* Calculator operations logic.
-* Use of React components, props, useState, and useEffect.
+* Use of React.js
 * Fetch data from an API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,7 +76,7 @@ In order to run this project you need to have:
 To clone this repository to your desired folder, run the following command: <br>
 
 ```
-git clone git@github.com:Luffytaro22/Math-Magicians.git
+git clone git@github.com:Luffytaro22/Anime-Quotes.git
 ```
 
 ### Install
@@ -157,9 +156,8 @@ Cooming soon.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a id="future-features"></a>
-* Separate the content in different pages.
-* Improve styles and animations.
-* Improve calculator operations logic.
+* More options for searching quotes.
+* More animations to improve UX.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -185,6 +183,8 @@ If you like this project please give it a star ⭐️
 
 I would like to give credits to the following:
 * **Microverse** for this readme template.
+* <a href="https://www.freepik.es/vector-gratis/fondo-purpura-cielo-nublado-tarde-grupo-cumulos-nubes-cirros-ilustracion-dibujos-animados-plana_16607919.htm#query=anime&position=1&from_view=search&track=sph">macrovector</a> in Freepik for the background image.
+* <a href="https://animechan.xyz/">Animechan</a> for their awesome API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
