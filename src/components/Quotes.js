@@ -18,7 +18,7 @@ export default function Quotes() {
       setIsLoading(false);
     };
     fetchData();
-  });
+  }, []);
 
   if (hasError) {
     return <div>Something went wrong!</div>;
@@ -30,8 +30,8 @@ export default function Quotes() {
 
   return (
     <div id="Quote-container">
-      <h2>{quoteData[0].quote}</h2>
-      <p>{quoteData[0].character}</p>
+      <h2>{quoteData.quote}</h2>
+      <p>{quoteData.character}</p>
     </div>
   );
 }
