@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const translate = require('node-google-translate-skidz');
-
 export default function Quotes({ anime }) {
   const [quoteData, setQuote] = useState([]);
   const [hasError, setHasError] = useState(false);
@@ -23,13 +21,6 @@ export default function Quotes({ anime }) {
           },
         });
         const json = await response.json();
-        translate({
-          text: `${json}`,
-          source: 'en',
-          target: 'es',
-        }, (result) => {
-          console.log(result);
-        });
         setQuote(json);
       } catch (error) {
         setHasError(true);
